@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		18C2A030225D4FB10013D83D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A02F225D4FB10013D83D /* AppDelegate.swift */; };
-		18C2A032225D4FB10013D83D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A031225D4FB10013D83D /* ViewController.swift */; };
+		18C2A032225D4FB10013D83D /* ParkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A031225D4FB10013D83D /* ParkListViewController.swift */; };
 		18C2A035225D4FB10013D83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2A033225D4FB10013D83D /* Main.storyboard */; };
 		18C2A037225D4FB30013D83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C2A036225D4FB30013D83D /* Assets.xcassets */; };
 		18C2A03A225D4FB30013D83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C2A038225D4FB30013D83D /* LaunchScreen.storyboard */; };
+		18C2A042225D51380013D83D /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A041225D51380013D83D /* States.swift */; };
+		18C2A044225D51510013D83D /* StatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A043225D51510013D83D /* StatePicker.swift */; };
+		18C2A046225D51610013D83D /* ParkPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A045225D51610013D83D /* ParkPicker.swift */; };
+		18C2A048225D55430013D83D /* NationalPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A047225D55430013D83D /* NationalPark.swift */; };
+		18C2A04A225D55570013D83D /* NationalParksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A049225D55560013D83D /* NationalParksService.swift */; };
+		18C2A04C225D602A0013D83D /* ErrorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A04B225D602A0013D83D /* ErrorAlertController.swift */; };
+		18C2A052225D63650013D83D /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A051225D63650013D83D /* ImageCollectionViewController.swift */; };
+		18C2A054225D638C0013D83D /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A053225D638C0013D83D /* ImageDetailViewController.swift */; };
+		18C2A056225D63AD0013D83D /* FlickrImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A055225D63AD0013D83D /* FlickrImage.swift */; };
+		18C2A058225D63BC0013D83D /* FlickrPhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A057225D63BC0013D83D /* FlickrPhotoData.swift */; };
+		18C2A05A225D63CD0013D83D /* FlickrPhotoSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A059225D63CD0013D83D /* FlickrPhotoSet.swift */; };
+		18C2A05C225D63F80013D83D /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A05B225D63F80013D83D /* PhotoCell.swift */; };
+		18C2A05E225D64130013D83D /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A05D225D64130013D83D /* FlickrService.swift */; };
+		18C2A060225D71120013D83D /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A05F225D71120013D83D /* FlickrPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18C2A02C225D4FB10013D83D /* Parks Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parks Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2A02F225D4FB10013D83D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18C2A031225D4FB10013D83D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C2A031225D4FB10013D83D /* ParkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListViewController.swift; sourceTree = "<group>"; };
 		18C2A034225D4FB10013D83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C2A036225D4FB30013D83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C2A039225D4FB30013D83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C2A03B225D4FB30013D83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C2A041225D51380013D83D /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		18C2A043225D51510013D83D /* StatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePicker.swift; sourceTree = "<group>"; };
+		18C2A045225D51610013D83D /* ParkPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkPicker.swift; sourceTree = "<group>"; };
+		18C2A047225D55430013D83D /* NationalPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalPark.swift; sourceTree = "<group>"; };
+		18C2A049225D55560013D83D /* NationalParksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParksService.swift; sourceTree = "<group>"; };
+		18C2A04B225D602A0013D83D /* ErrorAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertController.swift; sourceTree = "<group>"; };
+		18C2A051225D63650013D83D /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		18C2A053225D638C0013D83D /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		18C2A055225D63AD0013D83D /* FlickrImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImage.swift; sourceTree = "<group>"; };
+		18C2A057225D63BC0013D83D /* FlickrPhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoData.swift; sourceTree = "<group>"; };
+		18C2A059225D63CD0013D83D /* FlickrPhotoSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoSet.swift; sourceTree = "<group>"; };
+		18C2A05B225D63F80013D83D /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		18C2A05D225D64130013D83D /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
+		18C2A05F225D71120013D83D /* FlickrPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +83,59 @@
 			isa = PBXGroup;
 			children = (
 				18C2A02F225D4FB10013D83D /* AppDelegate.swift */,
-				18C2A031225D4FB10013D83D /* ViewController.swift */,
-				18C2A033225D4FB10013D83D /* Main.storyboard */,
 				18C2A036225D4FB30013D83D /* Assets.xcassets */,
+				18C2A033225D4FB10013D83D /* Main.storyboard */,
 				18C2A038225D4FB30013D83D /* LaunchScreen.storyboard */,
 				18C2A03B225D4FB30013D83D /* Info.plist */,
+				18C2A050225D63100013D83D /* Controller */,
+				18C2A04E225D62A00013D83D /* Model */,
+				18C2A04D225D623A0013D83D /* Service */,
+				18C2A04F225D62F60013D83D /* View */,
 			);
 			path = "Parks Explorer";
+			sourceTree = "<group>";
+		};
+		18C2A04D225D623A0013D83D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				18C2A049225D55560013D83D /* NationalParksService.swift */,
+				18C2A05D225D64130013D83D /* FlickrService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		18C2A04E225D62A00013D83D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18C2A047225D55430013D83D /* NationalPark.swift */,
+				18C2A041225D51380013D83D /* States.swift */,
+				18C2A055225D63AD0013D83D /* FlickrImage.swift */,
+				18C2A057225D63BC0013D83D /* FlickrPhotoData.swift */,
+				18C2A05F225D71120013D83D /* FlickrPhoto.swift */,
+				18C2A059225D63CD0013D83D /* FlickrPhotoSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18C2A04F225D62F60013D83D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C2A04B225D602A0013D83D /* ErrorAlertController.swift */,
+				18C2A043225D51510013D83D /* StatePicker.swift */,
+				18C2A045225D51610013D83D /* ParkPicker.swift */,
+				18C2A05B225D63F80013D83D /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C2A050225D63100013D83D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18C2A031225D4FB10013D83D /* ParkListViewController.swift */,
+				18C2A051225D63650013D83D /* ImageCollectionViewController.swift */,
+				18C2A053225D638C0013D83D /* ImageDetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +209,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C2A032225D4FB10013D83D /* ViewController.swift in Sources */,
+				18C2A05C225D63F80013D83D /* PhotoCell.swift in Sources */,
+				18C2A060225D71120013D83D /* FlickrPhoto.swift in Sources */,
+				18C2A056225D63AD0013D83D /* FlickrImage.swift in Sources */,
+				18C2A05E225D64130013D83D /* FlickrService.swift in Sources */,
+				18C2A05A225D63CD0013D83D /* FlickrPhotoSet.swift in Sources */,
+				18C2A042225D51380013D83D /* States.swift in Sources */,
+				18C2A032225D4FB10013D83D /* ParkListViewController.swift in Sources */,
+				18C2A058225D63BC0013D83D /* FlickrPhotoData.swift in Sources */,
+				18C2A04A225D55570013D83D /* NationalParksService.swift in Sources */,
+				18C2A04C225D602A0013D83D /* ErrorAlertController.swift in Sources */,
 				18C2A030225D4FB10013D83D /* AppDelegate.swift in Sources */,
+				18C2A044225D51510013D83D /* StatePicker.swift in Sources */,
+				18C2A052225D63650013D83D /* ImageCollectionViewController.swift in Sources */,
+				18C2A046225D51610013D83D /* ParkPicker.swift in Sources */,
+				18C2A048225D55430013D83D /* NationalPark.swift in Sources */,
+				18C2A054225D638C0013D83D /* ImageDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +379,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guled-Ali.Parks-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +397,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guled-Ali.Parks-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
