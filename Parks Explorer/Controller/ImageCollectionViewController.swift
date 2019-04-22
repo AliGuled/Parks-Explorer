@@ -15,7 +15,6 @@ class ImageCollectionViewController: UICollectionViewController {
     var photoSet: FlickrPhotoSet?
     let flickrService = FlickrService()
     
-    @IBOutlet weak var image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,8 +40,6 @@ class ImageCollectionViewController: UICollectionViewController {
             }
         }
     }
-    
-  
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: resuseIndentifier, for: indexPath) as! PhotoCell

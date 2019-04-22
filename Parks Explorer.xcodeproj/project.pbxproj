@@ -25,7 +25,6 @@
 		18C2A05A225D63CD0013D83D /* FlickrPhotoSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A059225D63CD0013D83D /* FlickrPhotoSet.swift */; };
 		18C2A05C225D63F80013D83D /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A05B225D63F80013D83D /* PhotoCell.swift */; };
 		18C2A05E225D64130013D83D /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A05D225D64130013D83D /* FlickrService.swift */; };
-		18C2A060225D71120013D83D /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A05F225D71120013D83D /* FlickrPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		18C2A059225D63CD0013D83D /* FlickrPhotoSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoSet.swift; sourceTree = "<group>"; };
 		18C2A05B225D63F80013D83D /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		18C2A05D225D64130013D83D /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
-		18C2A05F225D71120013D83D /* FlickrPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 				18C2A041225D51380013D83D /* States.swift */,
 				18C2A055225D63AD0013D83D /* FlickrImage.swift */,
 				18C2A057225D63BC0013D83D /* FlickrPhotoData.swift */,
-				18C2A05F225D71120013D83D /* FlickrPhoto.swift */,
 				18C2A059225D63CD0013D83D /* FlickrPhotoSet.swift */,
 			);
 			path = Model;
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C2A05C225D63F80013D83D /* PhotoCell.swift in Sources */,
-				18C2A060225D71120013D83D /* FlickrPhoto.swift in Sources */,
 				18C2A056225D63AD0013D83D /* FlickrImage.swift in Sources */,
 				18C2A05E225D64130013D83D /* FlickrService.swift in Sources */,
 				18C2A05A225D63CD0013D83D /* FlickrPhotoSet.swift in Sources */,

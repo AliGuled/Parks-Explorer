@@ -20,12 +20,12 @@ class FlickrImage  {
     
     var thumbnailURL: String? {
         guard let photo = photoData else {return nil}
-        return "https://farm\(photo.farm).staticflickr.com/\(photo.server)\(photo.id)_\(photo.secret)_q.jpg"
+        return "https://farm\(photo.farm).staticflickr.com/\(photo.server)/\(photo.id)_\(photo.secret)_q.jpg"
     }
     
     var fullURL: String? {
         guard let photo = photoData else {return nil}
-        return "https://farm\(photo.farm).staticflickr.com/\(photo.server)/\(photo.id)_\(photo.secret)_h.jpg"
+        return "https://farm\(photo.farm).staticflickr.com/\(photo.server)/\(photo.id)_\(photo.secret)_b.jpg"
     }
     
 //    var urlString: String? {

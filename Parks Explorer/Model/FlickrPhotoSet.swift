@@ -22,11 +22,11 @@ class FlickrPhotoSet {
     
     func downloadThumbnailFor(index: Int, completion: @escaping (UIImage?, Error?) -> Void) {
         let image = images[index]
-        flickrService.downloadImage(url: image.thumbnailURL!) { (image: UIImage?, error: Error?) in
+        flickrService.downloadImage(url: image.thumbnailURL!, completion: { (image: UIImage?, error: Error?) in
             
             self.images[index].thumnail = image
             completion(image, error)
-        }
+        })
         
         
     }
