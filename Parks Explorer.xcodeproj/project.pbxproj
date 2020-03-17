@@ -167,6 +167,7 @@
 				TargetAttributes = {
 					18C2A02B225D4FB10013D83D = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -375,7 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guled-Ali.Parks-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -393,7 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guled-Ali.Parks-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

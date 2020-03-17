@@ -18,10 +18,14 @@ class ImageDetailViewController: UIViewController {
     
     override func  viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.prefersLargeTitles = true
         
         let photoData = flickrImage?.photoData
         photoDetail.text = photoData?.title
+        let photo = flickrImage?.thumnail
+        imageView.image = photo
         let url = flickrImage!.fullURL
+    
         //textView.text = "\(photoData?.url)"
         
         flickrService.downloadImage(url: url!) { (image: UIImage?,error: Error?) in
@@ -30,7 +34,10 @@ class ImageDetailViewController: UIViewController {
                     print(error)
                     self.present(ErrorAlertController.alert(message: "Error fetching photo"), animated: true)
                 } else {
-                    self.imageView.image = image
+                    DispatchQueue.main.async {
+                        self.imageView.image = image
+
+                    }
                 }
             }
         }

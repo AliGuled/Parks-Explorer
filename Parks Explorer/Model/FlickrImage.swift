@@ -12,7 +12,7 @@ class FlickrImage  {
     var photoData: FlickrPhotoData?
     var thumnail: UIImage?
     var full: UIImage?
-   // var url: String?
+   // var link: String?
     
     init(phtoData: FlickrPhotoData) {
         self.photoData = phtoData
@@ -30,6 +30,6 @@ class FlickrImage  {
     
 //    var urlString: String? {
 //        guard let photo = photoData else {return nil}
-//        return "https://farm\(photo.farm).staticflickr.com/\(photo.server)/\(photo.id)_\(photo.secret)_h.jpg"
+//       return "https://farm\(photo.farm).staticflickr.com/\(photo.server)/\(photo.id)_\(photo.secret)_b.jpg"
 //    }
 }

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zgx-yx-tCb">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zgx-yx-tCb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,17 +20,18 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Okr-cH-wc6">
-                                        <rect key="frame" x="47" y="0.0" width="320" height="314"/>
+                                        <rect key="frame" x="47" y="0.0" width="320" height="302.5"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1S-Df-jaz">
-                                        <rect key="frame" x="167" y="314" width="80" height="43.5"/>
+                                        <rect key="frame" x="149" y="302.5" width="116" height="56"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="Show Parks"/>
                                         <connections>
                                             <action selector="showParkButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2W7-p5-dfa"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a Park" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xh-0M-iBR">
-                                        <rect key="frame" x="152" y="357.5" width="110.5" height="29.5"/>
+                                        <rect key="frame" x="152" y="358.5" width="110.5" height="28.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -41,10 +40,11 @@
                                         <rect key="frame" x="197" y="387" width="20" height="0.0"/>
                                     </activityIndicatorView>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-0s-MRg">
-                                        <rect key="frame" x="47" y="387" width="320" height="314"/>
+                                        <rect key="frame" x="47" y="387" width="320" height="302.5"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaV-ev-1zp">
-                                        <rect key="frame" x="160.5" y="701" width="93" height="73"/>
+                                        <rect key="frame" x="140.5" y="689.5" width="133" height="84.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="Explore Parks"/>
                                         <connections>
                                             <segue destination="aOR-TK-KRm" kind="show" identifier="explorePark" id="w4s-kN-o3g"/>
@@ -148,19 +148,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1gD-gx-vzo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="1gD-gx-vzo">
                                 <rect key="frame" x="14" y="254" width="386" height="389"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="386" id="XRo-jw-AIQ"/>
+                                    <constraint firstAttribute="height" constant="389" id="qz3-42-hiT"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="i1N-dl-l8g" firstAttribute="top" secondItem="ymL-TX-0x2" secondAttribute="top" constant="43" id="2mh-Zg-MS0"/>
-                            <constraint firstItem="1gD-gx-vzo" firstAttribute="centerX" secondItem="5MG-gs-m8l" secondAttribute="centerX" id="54R-Ig-Poo"/>
                             <constraint firstItem="i1N-dl-l8g" firstAttribute="leading" secondItem="ymL-TX-0x2" secondAttribute="leading" constant="83" id="7Ev-KB-Iiw"/>
                             <constraint firstItem="ymL-TX-0x2" firstAttribute="trailing" secondItem="i1N-dl-l8g" secondAttribute="trailing" constant="83" id="7VP-rO-xcy"/>
-                            <constraint firstItem="1gD-gx-vzo" firstAttribute="centerY" secondItem="5MG-gs-m8l" secondAttribute="centerY" id="AVW-KB-Kxb"/>
                             <constraint firstItem="ymL-TX-0x2" firstAttribute="bottom" secondItem="1gD-gx-vzo" secondAttribute="bottom" constant="219" id="M8I-8T-Zj3"/>
                             <constraint firstItem="1gD-gx-vzo" firstAttribute="leading" secondItem="ymL-TX-0x2" secondAttribute="leading" constant="14" id="RKl-4i-p6C"/>
+                            <constraint firstItem="ymL-TX-0x2" firstAttribute="trailing" secondItem="1gD-gx-vzo" secondAttribute="trailing" constant="14" id="m7D-cz-MIk"/>
+                            <constraint firstItem="1gD-gx-vzo" firstAttribute="top" secondItem="i1N-dl-l8g" secondAttribute="bottom" constant="48" id="mwy-Lo-8NJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ymL-TX-0x2"/>
                     </view>
@@ -192,4 +196,7 @@
             <point key="canvasLocation" x="-172.46376811594203" y="-17.410714285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="placeholder" width="75" height="75"/>
+    </resources>
 </document>

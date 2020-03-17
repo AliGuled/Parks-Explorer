@@ -18,6 +18,7 @@ class ParkListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "National Parks"
         statePicker = StatePicker(states: States.stateNames)
         statePickerView.dataSource = statePicker
         statePickerView.delegate = statePicker
@@ -25,6 +26,7 @@ class ParkListViewController: UIViewController {
         parkPicker = ParkPicker()
         parkPickerView.dataSource = parkPicker
         parkPickerView.delegate = parkPicker
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 
     @IBAction func showParkButtonTapped(_ sender: UIButton) {

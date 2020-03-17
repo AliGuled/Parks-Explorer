@@ -25,6 +25,6 @@ struct FlickrPhotoData: Decodable {
     let farm: Int
     let title: String
     let ispublic: Int
-    // let url: String
+     //let link: String
 }
 

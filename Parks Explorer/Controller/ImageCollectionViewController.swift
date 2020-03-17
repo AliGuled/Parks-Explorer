@@ -17,6 +17,7 @@ class ImageCollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.prefersLargeTitles = true
         
         flickrService.searchPhotos(query: park!.fullName) {(photos: [FlickrPhotoData]?, error: Error?) -> Void in
             
